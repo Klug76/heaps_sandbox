@@ -1,0 +1,6 @@
+-lib heaps
+-lib haxeui-core
+-lib haxeui-heaps
+-cp src
+-js bin/heapstestjs.js
+-main Main
