@@ -2,6 +2,7 @@ package;
 
 import h2d.Bitmap;
 import haxe.ui.backend.heaps.HeapsApp;
+import haxe.ui.components.Label;
 import hxd.App;
 
 import haxe.ui.Toolkit;
@@ -33,9 +34,15 @@ class Main
 		//trace("1");
 
 		var main = new VBox();
+
+		//var al: Label = new Label();
+		//al.text = "foo";
+		//main.addComponent(al);
+
 		var button1 = new Button();
-		//button1.text = "Button 1";//!!!!!!!!!!!!crash
+		button1.text = "Button 1";//!!!!!!!!!!!!crash
 		main.addComponent(button1);
+
 		Screen.instance.addComponent(main);
 
 		//b = new h2d.Bitmap(h2d.Tile.fromColor(0xff0000, 128, 128));

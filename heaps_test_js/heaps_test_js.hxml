@@ -3,4 +3,5 @@
 -lib haxeui-heaps
 -cp src
 -js bin/heapstestjs.js
+-D dce=no
 -main Main
